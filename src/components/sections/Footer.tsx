@@ -6,7 +6,7 @@ const Footer = () => (
       <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
         {/* Brand */}
         <div className="md:col-span-2">
-          <h3 className="font-heading font-bold text-xl mb-3">Vanguard Supply Co.</h3>
+          <h3 className="font-heading font-bold text-xl mb-3">Demmy</h3>
           <p className="text-muted-foreground font-body text-sm leading-relaxed max-w-sm">
             Enterprise wholesale distribution and bulk procurement solutions. Powering commerce across industries since 2009.
           </p>
@@ -38,7 +38,7 @@ const Footer = () => (
 
       <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="text-muted-foreground text-xs font-body">
-          © {new Date().getFullYear()} Vanguard Supply Co. All rights reserved. | 1200 Commerce Blvd, Suite 400
+          © {new Date().getFullYear()} Demmy. All rights reserved. | 2764 Pleasant Road Suite A #10411
         </p>
         <div className="flex gap-4">
           {[Twitter, Linkedin, Mail].map((Icon, i) => (
