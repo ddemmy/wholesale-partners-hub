@@ -6,9 +6,7 @@ const Footer = () => (
       <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
         {/* Brand */}
         <div className="md:col-span-2">
-          <h3 className="font-heading font-bold text-2xl tracking-tight mb-3">
-            <span className="text-gradient">D</span>emmy
-          </h3>
+          <h3 className="font-heading font-bold text-2xl tracking-tight mb-3 text-gradient-brand inline-block">Demmy</h3>
           <p className="text-muted-foreground font-body text-sm leading-relaxed max-w-sm">
             Enterprise wholesale distribution and bulk procurement solutions. Powering commerce across industries since 2009.
           </p>
